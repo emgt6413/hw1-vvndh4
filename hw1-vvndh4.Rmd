@@ -1,0 +1,64 @@
+---
+title: "hw1_vvndh4_emgt6413_Spring_2021"
+author: "Vince"
+output:
+  pdf_document: default
+  pdf: default
+---
+
+## Question 1
+```{r eval=FALSE}
+library(tidyverse)
+```
+
+## Question 2
+library(haven)
+mto_sci_puf_cells_20130206 <- read_dta("Data/mto_sci_puf_cells_20130206.dta")
+View(mto_sci_puf_cells_20130206)
+
+## Question 3
+# 3.1 - Add information to the metadata at the top. For example, author and date.
+See Title, Author, and Date at the top of this report
+
+# 3.2 - Demonstrate two levels of headers
+## Header 1 demonstration
+### Header 2 demonstration
+
+# 3.3 - Demonstrate bold text
+**Bold text demonstration**
+
+# 3.4 - Demonstrate an ordered or unordered list
+* unordered list
+* To-do list
+ + Buy groceries
+ + Buy lottery
+
+1. ordered list
+2. To-do list
+ + Buy groceries
+ + Buy lottery
+ 
+# 3.5 - Insert a random image
+![](download.png) 
+
+# 3.6 - Demonstrate inline code
+Two multiply by ten equals `r 2 * 10`.
+
+# 3.7 - Change the display options for the R chunk where you load the libraries so that it only shows the code and none of the output.
+See R chunk of Question 1 above
+
+## Question 4
+The issue is my_variable and my_varıable have different character i and ı.
+
+## Question 5
+For my reference, I'd like to switch between different themes for my IDE. I learn from this [Twitter link](https://twitter.com/dataquestio/status/1270747709113274368) that I can change my theme appearances.
+
+Below is a picture of my current theme:
+
+![](Capture.png) 
+
+## Question 6
+In my opinion, Fourth Circle: p Value Fishing is the hardest circle of scientific hell. It's tough because this is where ideas are truly implemented by using the appropriate analytic method. It's easy to have bias when finding appropriate analytic method while hunting p-Value and forgetting the goal of the analysis. Also, fishing for the best analytic method will possibly hitting dead-ends which creates frustration that would lead to enethical p-value fishing.
+
+## Question 7
+This working folder is pushed to Github repository
